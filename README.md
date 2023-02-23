@@ -1,1 +1,1 @@
-# bible
+# Notes from trainings 

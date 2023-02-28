@@ -1,0 +1,11 @@
+Finidng juicy stuff after login.
+
+Find shadow file copys:
+find / -iname "shadow*" | xargs ls -la
+find / -iname "shadow*" -perm /o+r -ls 2>/dev/null
+
+
+Find "pass" in all *.conf files:
+ find / -iname "*.conf" 2>/dev/null -exec grep -i 'pass' {} \;
+ 
+ 
